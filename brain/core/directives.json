@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "operator": {
     "name": "Guilherme Gustavo Weber",
-    "handle": "guilherme7weber",
+    "handle": "GuilhermeGustavoWeber",
     "email": "guilherme7weber@gmail.com"
   },
   "behavior": {
@@ -30,7 +30,7 @@
   "paths": {
     "brain_dir": "C:/Users/Pichau/Desktop/DEV_Workspace/SIDI/brain",
     "repo_path": "C:/Users/Pichau/Desktop/DEV_Workspace/SIDI",
-    "repo_remote": "https://github.com/guilherme7weber/sidi.git"
+    "repo_remote": "https://github.com/GuilhermeGustavoWeber/sidi.git"
   },
   "triggers": {
     "custom_triggers": [
