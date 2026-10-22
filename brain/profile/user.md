@@ -1,7 +1,7 @@
 # Perfil do Operador: Guilherme Gustavo Weber
 
 Nome oficial: Guilherme Gustavo Weber
-Handle: guilherme7weber
+Handle: GuilhermeGustavoWeber
 E-mail: guilherme7weber@gmail.com
 Ultima atualizacao: 2026-10-22
 
@@ -43,3 +43,10 @@ Ultima atualizacao: 2026-10-22
   - Interfaces Web / Aplicacoes: TypeScript + HTML/CSS.
   - Persistencia Estruturada: SQL.
   - Integracao Nativa com Windows: C# (.NET).
+
+---
+
+## 5. Repositorios e Projetos Conhecidos
+- Catalogo completo mapeado na memoria semantica: [[github_repositories]]
+- Perfil GitHub: https://github.com/GuilhermeGustavoWeber
+- Projetos primarios: `sidi` (Copiloto Cognitivo Python), `api-pedidos-main` (Sistemas em C), `grafos-main` e `poo_luiz` (Engenharia de Software em Java), `plataforma_E-Learning` (Web com Flask).
