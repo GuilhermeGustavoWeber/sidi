@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.env
+.env.*
+.venv/
+venv/
+state/handoff.json
+brain/knowledge_graph.json
+.vscode/
+.idea/
+*.tmp

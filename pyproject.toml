@@ -1,0 +1,12 @@
+[project]
+name = "sidi"
+version = "1.0.0"
+description = "Copiloto cognitivo pessoal com memoria persistente e grafo hebbiano"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+sidi = "sidi:main"
+
+[tool.uv.sources]
+# Motor modular construido integralmente sobre a biblioteca padrao do Python (stdlib).
