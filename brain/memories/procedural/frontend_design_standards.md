@@ -9,35 +9,45 @@ Objetivo: Padrao estetico oficial para interfaces web de Guilherme Gustavo Weber
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap');
 
 :root {
-  /* Paleta Editorial & Contraste */
-  --paper: #F2F3F7;        /* Superficie base (papel frio aveludado) */
-  --paper-2: #E9EBF1;      /* Superficie secundaria */
-  --card: #F7F8FB;         /* Superficie elevada */
-  --ink: #1F1C1D;          /* Texto primario (quase preto quente) */
-  --ink-2: #3A3F47;        /* Texto secundario */
-  --muted: #646B76;        /* Metadados e legendas */
+  /* Paleta Editorial & Contraste — Dark Potadot (Padrao) */
+  --paper: #071417;        /* Superficie base escura (Teal-Obsidian profundo) */
+  --paper-2: #0B1E22;      /* Superficie secundaria */
+  --card: #0E252B;         /* Superficie elevada */
+  --white: #122E35;        /* Tiles internos e destaques */
+  --ink: #EAF4EE;          /* Texto primario (sage off-white) */
+  --ink-2: #B8D0C8;        /* Texto secundario */
+  --muted: #7FA198;        /* Metadados e legendas */
   --green: #3DB663;        /* Acento primario (Emerald vivo) */
-  --green-ink: #23874A;    /* Verde escuro para leitura sobre fundo claro */
-  --green-soft: #DDF2E4;   /* Fundo de badges/pills */
-  --teal: #0A282D;         /* Blocos de alto contraste (.on-dark / mockups / footer / toasts) */
-  --teal-2: #123A3B;       /* Elevacao sobre --teal */
-  --brown: #B07040;        /* Acento terroso para subtitulos de preco/destaques */
+  --green-ink: #52D67C;    /* Verde luminoso para leitura sobre fundo escuro */
+  --green-soft: rgba(61, 182, 99, 0.16);
+  --teal: #030A0C;         /* Blocos de contraste abissal (.on-dark / mockups / footer) */
+  --teal-2: #091B1F;
+  --brown: #E09F67;        /* Acento cobre/ambar para subtitulos de preco */
   --peach: #E5BA97;        /* Acento quente para indicadores e dots */
-  --white: #FFFFFF;
-  --line: rgba(10, 40, 45, .09);
+  --line: rgba(234, 244, 238, .09);
   --on-dark: #EAF4EE;
   --on-dark-muted: #9FB9B1;
 
-  /* Sistema Triplo de Sombras Tateis (Sem bordas duras) */
-  --shadow-raise: 12px 12px 28px rgba(160, 166, 186, .42), -12px -12px 28px rgba(255, 255, 255, .95);
-  --shadow-soft:  6px 6px 16px rgba(160, 166, 186, .35), -6px -6px 16px rgba(255, 255, 255, .9);
-  --shadow-press: inset 6px 6px 14px rgba(160, 166, 186, .38), inset -6px -6px 14px rgba(255, 255, 255, .95);
+  /* Sistema Triplo de Sombras Tateis Escuras (Elevacao & Cavidade) */
+  --shadow-raise: 12px 12px 28px rgba(1, 5, 6, .78), -8px -8px 22px rgba(22, 62, 70, .25), inset 0 1px 0 rgba(234, 244, 238, .08);
+  --shadow-soft:  6px 6px 16px rgba(1, 5, 6, .65), -5px -5px 14px rgba(22, 62, 70, .2), inset 0 1px 0 rgba(234, 244, 238, .06);
+  --shadow-press: inset 6px 6px 14px rgba(1, 5, 6, .82), inset -5px -5px 12px rgba(22, 62, 70, .22);
 
   /* Tipografia & Curva de Animacao */
   --f-display: "Outfit", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --f-body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
   --f-mono: "JetBrains Mono", ui-monospace, monospace;
   --ease: cubic-bezier(.22, 1, .36, 1);
+}
+
+/* Variante Clara Opcional via html[data-theme="light"] */
+html[data-theme="light"] {
+  --paper: #F2F3F7; --paper-2: #E9EBF1; --card: #F7F8FB; --white: #FFFFFF;
+  --ink: #1F1C1D; --ink-2: #3A3F47; --muted: #646B76;
+  --green-ink: #23874A; --green-soft: #DDF2E4; --teal: #0A282D; --brown: #B07040;
+  --shadow-raise: 12px 12px 28px rgba(160, 166, 186, .42), -12px -12px 28px rgba(255, 255, 255, .95);
+  --shadow-soft:  6px 6px 16px rgba(160, 166, 186, .35), -6px -6px 16px rgba(255, 255, 255, .9);
+  --shadow-press: inset 6px 6px 14px rgba(160, 166, 186, .38), inset -6px -6px 14px rgba(255, 255, 255, .95);
 }
 ```
 
