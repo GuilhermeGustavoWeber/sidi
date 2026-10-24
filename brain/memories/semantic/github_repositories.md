@@ -2,7 +2,7 @@
 
 Operador: [[user]]
 Perfil GitHub: https://github.com/GuilhermeGustavoWeber
-Ultima atualizacao: 2026-10-22
+Ultima atualizacao: 2026-10-24
 
 Este documento consolida os repositorios e projetos publicos do operador Guilherme Gustavo Weber, indexados na memoria semantica do SIDI para consulta e expansao arquitetural.
 
@@ -40,6 +40,12 @@ Este documento consolida os repositorios e projetos publicos do operador Guilher
 ---
 
 ## 3. Servicos Web e Plataformas
+- **Nome**: `novastore`
+- **URL**: https://github.com/GuilhermeGustavoWeber/novastore
+- **Diretorio Local**: `C:\Users\Pichau\Desktop\DEV_Workspace\store_app`
+- **Linguagem Principal**: Python (FastAPI, Pydantic, SQLite) / HTML5 / CSS3 (Tactile Soft-Neumorphic Dark/Light) / Vanilla ES6
+- **Descricao**: Plataforma completa de e-commerce End-to-End v3.0 para hardware de engenharia de software, com backoffice executivo (`/admin`), rastreamento logistico (`/track`), motor de cupons/frete/PIX, estorno automatico de estoque e suite de testes E2E.
+
 - **Nome**: `plataforma_E-Learning`
 - **URL**: https://github.com/GuilhermeGustavoWeber/plataforma_E-Learning
 - **Linguagem Principal**: Python (Flask) / HTML / CSS / Bootstrap
