@@ -3,7 +3,8 @@
 Nome oficial: Guilherme Gustavo Weber
 Handle: GuilhermeGustavoWeber
 E-mail: guilherme7weber@gmail.com
-Ultima atualizacao: 2026-10-22
+Localizacao: Indaiatuba - SP
+Ultima atualizacao: 2026-10-24
 
 ---
 
