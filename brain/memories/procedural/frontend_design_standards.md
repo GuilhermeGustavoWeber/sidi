@@ -74,3 +74,9 @@ html[data-theme="light"] {
 6. **Textura Film-Grain Global (`body::after`) & Spotlight de Cursor**:
    - Overlay fixo com SVG `<feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/>` em `opacity: .042` para aspecto organico de papel impresso.
    - Cards rastreiam `--mx` e `--my` via `pointermove` aplicando `radial-gradient(420px circle at var(--mx) var(--my), rgba(61, 182, 99, .12), transparent 45%)`.
+7. **Fundo Arquitetonico em 4 Camadas (`body`, `body::before` e `.bg-stage`)**:
+   - **Malha CAD + Dot Matrix (`body::before`)**: Matriz de micro-pontos esmeralda (`28x28px`) combinada a linhas de blueprint (`140x140px`) com `mask-image` eliptica.
+   - **Auroras Ambientes + Feixe de Cursor (`body`)**: Focos difusos (`--green`, `--peach` e petroleo profundo) somados a um feixe radial de `650px` guiado por `--page-mx` e `--page-my`.
+   - **Orbes, Aneis e Miras Flutuantes (`.bg-stage`)**: Esferas neumorficas (`.bg-orb`), aneis vazados (`.bg-orb--ring`) com animacao `bgOrbFloat` e miras de telemetria (`.bg-crosshair`).
+8. **Palco Fotografico de Produto (`.card-visual`)**:
+   - Container esculpido (`height: 215px`, `border-radius: 22px`, `box-shadow: var(--shadow-press)`) com foto full-bleed (`.card-img`, `scale(1.07)` no hover), vinheta editorial escura (`.card-visual::after`) e selo tatil SVG flutuante no canto inferior direito (`right: 12px; bottom: 12px`).
